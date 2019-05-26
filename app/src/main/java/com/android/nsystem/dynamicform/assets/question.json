@@ -1,0 +1,60 @@
+{
+  "version" : "1.0.0",
+  "questions" : [{
+    "key" : "email",
+    "label" : "email",
+    "typeField" : "email",
+    "validation" : {
+      "required" : true
+    }
+  }, {
+    "key" : "password",
+    "label" : "Password",
+    "typeField" : "password",
+    "validation" : {
+      "required" : true
+    }
+  }, {
+    "key" : "name",
+    "label" : "Name",
+    "typeField" : "text",
+    "validation" : {
+      "required" : true,
+      "minLength" : 3
+    }
+  }, {
+    "key" : "pob",
+    "label" : "Place of Birth",
+    "typeField" : "text",
+    "validation" : {
+      "required" : true
+    }
+  }, {
+    "key" : "dob",
+    "label" : "Date of Birth",
+    "typeField" : "date",
+    "validation" : {
+      "required" : true
+    }
+  }, {
+    "key" : "idCardNo",
+    "label" : "ID Card No.",
+    "typeField" : "text",
+    "validation" : {
+      "required" : true,
+      "exactLength" : 16
+    }
+  }, {
+    "key" : "maritalStatus",
+    "label" : "Marital Status",
+    "typeField" : "select",
+    "validation" : null,
+    "options" : [{
+      "label" : "Married",
+      "value" : "1"
+    }, {
+      "label" : "Not Married",
+      "value" : "0"
+    }]
+  }]
+}
